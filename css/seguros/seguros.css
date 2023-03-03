@@ -10,7 +10,7 @@
   align-items: center;
 }
 #seguros .seguros {
-padding-top: 0px;
+  padding-top: 0px;
 }
 
 .seguros h2 {
@@ -31,7 +31,7 @@ padding-top: 0px;
   margin-bottom: 32px;
 }
 .seguros-item li + li {
- margin-top: 20px;
+  margin-top: 20px;
 }
 .seguros-item li {
   display: flex;
@@ -61,4 +61,3 @@ padding-top: 0px;
     grid-template-columns: 1fr;
   }
 }
-
