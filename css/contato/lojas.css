@@ -38,6 +38,18 @@
   gap: 8px;
   align-items: center;
 }
+[data-semana]::after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #e54;
+}
+[data-semana].aberto::after {
+  background-color: #3f4;
+}
 
 @media (max-width: 800px) {
   .lojas {
@@ -56,4 +68,5 @@
 @media (max-width: 800px) {
   .lojas {
     grid-template-columns: 1fr;
+  }
 }

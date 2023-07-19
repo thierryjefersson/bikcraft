@@ -35,10 +35,9 @@
   display: inline-block;
   width: 14px;
   height: 6px;
-  background: url(../../img/icones/seta-abrir.svg);
+  background: url(../../img/icones/seta-abrir.svg);  
   transition: transform 0.3s;
 }
-.perguntas button:hover:after,
 .perguntas button[aria-expanded="true"]:after {
   transform: rotate(180deg);
 }
